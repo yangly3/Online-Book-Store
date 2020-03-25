@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Home</title>
+<link href="includes/style.css" rel="stylesheet" type="text/css">
+	</head>
+	
+	<body>
+	   <div class="header">
+        <p><a href="#">ICS199 G15 Online Book Store</a></p>
+        </div>
+	
+	    <div class="top_banner">
+			
+            <div class="top_logo"><img src="Images/1.jpeg" alt="LOGO" />
+			</div>
+         
+        <nav class="dropdownmenu">
+          <ul>
+               <li><a href="index.html">&nbsp;&nbsp;&nbsp;Home&nbsp;&nbsp;&nbsp;</a></li>
+                <li><a href="Sport.html">&nbsp;&nbsp;&nbsp;Sport&nbsp;&nbsp;&nbsp;</a>
+				   <ul id="submenu">
+                     <li><a href="Sport1.html">Sport1</a></li>
+                      <li><a href="Sport2.html">Sport2</a></li>
+                     <li><a href="Sport3.html">Sport3</a></li>
+                   </ul>
+				 </li>
+				 
+                 <li><a href="History.html">&nbsp;&nbsp;&nbsp;History&nbsp;&nbsp;&nbsp;</a>
+                   <ul id="submenu1">
+                     <li><a href="History1.html">History</a></li>
+                      <li><a href="History2.html">HistoryHistory</a></li>
+                     <li><a href="History3.html">History History History</a></li>
+                   </ul>
+                 </li>
+				 
+                <li><a href="News.html">&nbsp;&nbsp;&nbsp;Newssss ssssssss&nbsp;&nbsp;&nbsp;</a>
+				   <ul id="submenu2">
+                     <li><a href="News1.html">News</a></li>
+                      <li><a href="News2.html">NewsNewsNewsas dasasada</a></li>
+                     <li><a href="News3.html">News</a></li>
+					   <li><a href="News4.html">NewsNews</a></li>
+                   </ul>
+					</li>
+				 
+                <li><a href="MyCart.html">&nbsp;&nbsp;&nbsp;My Cart&nbsp;&nbsp;&nbsp;</a>
+				   <ul id="submenu3">
+                     <li><a href="ViewMyCart.php">View My Cart</a></li>
+                      <li><a href="OrderHistory.html">Order History</a></li>
+                     <li><a href="CheckOut.html">Check Out</a></li>
+                   </ul>
+				 
+				 </li>
+          </ul>
+       </nav>
+			<a href="login.html" class="myButton">Log out</a>
+            </div>
+	
+	<div id="Loc">
+			<br><em>Modify Page</em><br><br>
+	</div>
+		
+<div id="middle">
+<div style="float: left; width: 340;" >
+	
+<form action ="add+book.php" enctype="multipart/form-data" method="post">
+<table class="tftable-admin" border="1">
+<tr><td>BookID:</td><td><input type="number" name="BookID" id=""></td></tr>
+<tr><td>BookName</td><td><input type="text" name="BookName" id=""></td></tr>
+<tr><td>ISBNCode</td><td><input type="text" name="ISBNCode" id=""></td></tr>
+<tr><td>Price:</td><td><input type="number" name="Price" id=""></td></tr>
+<tr><td>Writer1:</td><td><input type="text" name="Writer1" id=""></td></tr>
+<tr><td>Writer2:</td><td><input type="text" name="Writer2" id=""></td></tr>
+<tr><td>Description:</td><td><input type="text" name="Writer2" id=""></td></tr>
+	<tr><td>PublishDate:</td><td><input type="date" name="PublishDate" id=""></td></tr>
+<tr><td>CategoryID:</td><td><input type="number" name="CategoryID" id=""></td></tr>
+<tr><td>UploadPicturesHere:</td><td><form action="upload.php" method="post" enctype="multipart/form-data">
+<input type="file" name="fileToUpload" id="fileToUpload">
+<input type="submit" value="Upload Image" name="submit">
+</form></td></tr>
+	</table>
+	<a href="#" class="SubmitResults">Submit Results</a>
+	</div>
+			
+<div style="float: left; width: 48%; text-align:center; height: 550px; border-left: dashed #22B000 2px"> 
+<h1>A Guide to Solving Web Development Problems</h1>
+
+<p>This is about how to solve technical problems that arise from using front or back end technologies to make web pages or apps but some of these steps will be applicable to solving technical problems in general.</p>
+
+<p>Half the technical problems in development are caused by something trivial but for all the problems past this level, you'll probably need to do some structured thinking.</p>
+
+	<h2>Troubleshooting Steps Summary</h2>
+
+<p>Define the problem that you're trying to solve. If you're not asking exactly the right question then you're not going to get exactly the right answer.</p>
+	</div>
+</div>
+
+
+	
+	<div id="footer">
+						<p style="color:red;">Welcome!+usernameinhere~~~~~~~~~~~~~~~~~~~~</p>
+    </div>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="includes/script.js"></script>			
+</body>
+</html>
